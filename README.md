@@ -1,8 +1,12 @@
 ## 🧱 Tech Stack
+<p></p>
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/>
 <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=FastAPI&logoColor=white"/>
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/>
 <img src="https://img.shields.io/badge/Databricks-FF3621?style=flat-square&logo=Databricks&logoColor=white"/>
+</p>
+<br/>
+<br/>
 
 
 ## 🤔 Github Stats
