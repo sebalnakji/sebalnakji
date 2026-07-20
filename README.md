@@ -7,62 +7,27 @@
   <img src="https://img.shields.io/badge/Databricks-FF3621?logo=Databricks&logoColor=white&style=flat-square" alt="Databricks">
 </p>
 
-<br>
-
 ## GitHub Stats
 
-<p align="center">
-  <img width="48%" src="./profile/stats.svg" alt="GitHub Stats">
-  <img width="48%" src="./profile/top-langs.svg" alt="Top Languages">
+<p>
+  <img height="165" src="./profile/stats.svg" alt="GitHub Stats">
+  <img height="165" src="./profile/top-langs.svg" alt="Top Languages">
 </p>
-
-<br>
-
----
 
 ## DAILY-STUDY
 
-<p>
-  <a href="https://github.com/sebalnakji/DAILY-STUDY">
-    <img src="https://img.shields.io/badge/Repository-DAILY--STUDY-181717?logo=github&logoColor=white" alt="DAILY-STUDY Repository">
-  </a>
-</p>
+[![DAILY-STUDY](https://img.shields.io/badge/Repository-DAILY--STUDY-181717?logo=github&logoColor=white)](https://github.com/sebalnakji/DAILY-STUDY)
 
-<p>
-  매일 <strong>AI·DA</strong>와 <strong>Backend</strong> 분야에서 핵심 개념을 하나씩 학습합니다.
-</p>
-
-<br>
+> 매일 **AI·DA**와 **Backend** 분야에서 핵심 개념을 하나씩 학습합니다.
 
 <!-- DAILY_STUDY:START -->
-### 학습 현황
+### Study Dashboard
 
-<div align="center">
-<table>
-  <tr>
-    <td align="center" width="150">
-      <strong>🔥 현재 스트릭</strong><br>
-      <sub><strong>0일</strong></sub>
-    </td>
-    <td align="center" width="150">
-      <strong>🏆 최장 스트릭</strong><br>
-      <sub><strong>0일</strong></sub>
-    </td>
-    <td align="center" width="150">
-      <strong>📅 완료한 학습일</strong><br>
-      <sub><strong>0일</strong></sub>
-    </td>
-    <td align="center" width="150">
-      <strong>🧠 완료한 질문</strong><br>
-      <sub><strong>0개</strong></sub>
-    </td>
-  </tr>
-</table>
-</div>
+| 🔥 현재 스트릭 | 🏆 최장 스트릭 | 📅 완료한 학습일 | 🧠 완료한 질문 |
+|---:|---:|---:|---:|
+| **0일** | **0일** | **0일** | **0개** |
 
-<br>
-
-### 최근 학습
+#### 최근 학습
 
 | 날짜 | AI·DA | Backend |
 |---|---|---|
