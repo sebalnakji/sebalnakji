@@ -41,10 +41,12 @@ jobs:
           from pathlib import Path
           from urllib.request import Request, urlopen
           import re
+          import textwrap
 
+          owner = "${{ github.repository_owner }}"
           source_url = (
-              "https://raw.githubusercontent.com/"
-              "${{ github.repository_owner }}/DAILY-STUDY/main/README.md"
+              f"https://raw.githubusercontent.com/"
+              f"{owner}/DAILY-STUDY/main/README.md"
           )
 
           request = Request(
@@ -67,27 +69,81 @@ jobs:
                   "DAILY-STUDY README에서 대시보드 마커를 찾지 못했습니다."
               )
 
-          dashboard = source_match.group(1).strip()
+          source = source_match.group(1)
 
-          # 프로필 README의 섹션 구조에 맞춰 제목 수준을 한 단계 낮춘다.
-          dashboard = dashboard.replace(
-              "## 📊 Study Dashboard",
-              "### Study Dashboard",
-              1,
+          metric_pattern = re.compile(
+              r"\|\s*\*\*(\d+일)\*\*\s*"
+              r"\|\s*\*\*(\d+일)\*\*\s*"
+              r"\|\s*\*\*(\d+일)\*\*\s*"
+              r"\|\s*\*\*(\d+개)\*\*\s*\|"
           )
-          dashboard = dashboard.replace(
-              "### 최근 학습",
-              "#### 최근 학습",
-              1,
+          metric_match = metric_pattern.search(source)
+
+          if not metric_match:
+              raise RuntimeError(
+                  "DAILY-STUDY README에서 학습 지표를 찾지 못했습니다."
+              )
+
+          current_streak, longest_streak, completed_days, completed_questions = (
+              metric_match.groups()
           )
 
-          # DAILY-STUDY의 상대 경로 링크를 프로필에서도 정상 작동하게 변환한다.
-          dashboard = dashboard.replace(
+          recent_pattern = re.compile(
+              r"\|\s*날짜\s*\|\s*AI·(?:DA|Data)\s*\|\s*Backend\s*\|\s*\n"
+              r"\|[^\n]+\|\s*\n"
+              r"(?P<rows>(?:\|[^\n]+\|\s*\n?)*)",
+              re.MULTILINE,
+          )
+          recent_match = recent_pattern.search(source)
+
+          if not recent_match:
+              raise RuntimeError(
+                  "DAILY-STUDY README에서 최근 학습 표를 찾지 못했습니다."
+              )
+
+          recent_rows = recent_match.group("rows").strip() or "| - | - | - |"
+
+          recent_rows = recent_rows.replace(
               "](notes/",
-              "]("
-              "https://github.com/${{ github.repository_owner }}"
-              "/DAILY-STUDY/blob/main/notes/",
+              f"](https://github.com/{owner}/DAILY-STUDY/blob/main/notes/",
           )
+
+          dashboard = f"""
+          ### 학습 현황
+
+          <div align="center">
+          <table>
+            <tr>
+              <td align="center" width="150">
+                <strong>🔥 현재 스트릭</strong><br>
+                <sub><strong>{current_streak}</strong></sub>
+              </td>
+              <td align="center" width="150">
+                <strong>🏆 최장 스트릭</strong><br>
+                <sub><strong>{longest_streak}</strong></sub>
+              </td>
+              <td align="center" width="150">
+                <strong>📅 완료한 학습일</strong><br>
+                <sub><strong>{completed_days}</strong></sub>
+              </td>
+              <td align="center" width="150">
+                <strong>🧠 완료한 질문</strong><br>
+                <sub><strong>{completed_questions}</strong></sub>
+              </td>
+            </tr>
+          </table>
+          </div>
+
+          <br>
+
+          ### 최근 학습
+
+          | 날짜 | AI·DA | Backend |
+          |---|---|---|
+          {recent_rows}
+          """
+
+          dashboard = textwrap.dedent(dashboard).strip()
 
           profile_path = Path("README.md")
           profile_readme = profile_path.read_text(encoding="utf-8")
