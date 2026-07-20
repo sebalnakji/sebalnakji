@@ -1,31 +1,35 @@
-## 🧱 Tech Stack
+## Tech Stack
+
 <p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=FastAPI&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Databricks-FF3621?style=flat-square&logo=Databricks&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?logo=Python&logoColor=white&style=flat-square" alt="Python">
+  <img src="https://img.shields.io/badge/FastAPI-009688?logo=FastAPI&logoColor=white&style=flat-square" alt="FastAPI">
+  <img src="https://img.shields.io/badge/MySQL-4479A1?logo=MySQL&logoColor=white&style=flat-square" alt="MySQL">
+  <img src="https://img.shields.io/badge/Databricks-FF3621?logo=Databricks&logoColor=white&style=flat-square" alt="Databricks">
 </p>
-<br/>
-<br/>
 
+## GitHub Stats
 
-## 🤔 Github Stats
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=sebalnakji)](https://github.com/anuraghazra/github-readme-stats)
-<br/>
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sebalnakji)](https://github.com/anuraghazra/github-readme-stats)
+<p>
+  <img height="165" src="./profile/stats.svg" alt="GitHub Stats">
+  <img height="165" src="./profile/top-langs.svg" alt="Top Languages">
+</p>
 
+## DAILY-STUDY
 
-<!--
-**sebalnakji/sebalnakji** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+[![DAILY-STUDY](https://img.shields.io/badge/Repository-DAILY--STUDY-181717?logo=github&logoColor=white)](https://github.com/sebalnakji/DAILY-STUDY)
 
-Here are some ideas to get you started:
+> 실제 면접 질문을 기반으로 매일 **AI·Data 1개 + Backend 1개**를 학습합니다.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<!-- DAILY_STUDY:START -->
+### Study Dashboard
+
+| 🔥 현재 스트릭 | 🏆 최장 스트릭 | 📅 완료한 학습일 | 🧠 완료한 질문 |
+|---:|---:|---:|---:|
+| **0일** | **0일** | **0일** | **0개** |
+
+#### 최근 학습
+
+| 날짜 | AI·Data | Backend |
+|---|---|---|
+| - | - | - |
+<!-- DAILY_STUDY:END -->

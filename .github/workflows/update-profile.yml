@@ -1,0 +1,127 @@
+name: Update profile
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-profile:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v6
+
+      - name: Prepare profile directory
+        run: mkdir -p profile
+
+      - name: Generate GitHub stats card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&theme=transparent&hide_border=true
+          path: profile/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate top languages card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&theme=transparent&hide_border=true
+          path: profile/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Sync DAILY-STUDY dashboard
+        shell: python
+        run: |
+          from pathlib import Path
+          from urllib.request import Request, urlopen
+          import re
+
+          source_url = (
+              "https://raw.githubusercontent.com/"
+              "${{ github.repository_owner }}/DAILY-STUDY/main/README.md"
+          )
+
+          request = Request(
+              source_url,
+              headers={"User-Agent": "github-profile-dashboard-sync"},
+          )
+
+          with urlopen(request, timeout=30) as response:
+              daily_readme = response.read().decode("utf-8")
+
+          source_pattern = re.compile(
+              r"<!-- STUDY_DASHBOARD:START -->(.*?)"
+              r"<!-- STUDY_DASHBOARD:END -->",
+              re.DOTALL,
+          )
+          source_match = source_pattern.search(daily_readme)
+
+          if not source_match:
+              raise RuntimeError(
+                  "DAILY-STUDY README에서 대시보드 마커를 찾지 못했습니다."
+              )
+
+          dashboard = source_match.group(1).strip()
+
+          # 프로필 README의 섹션 구조에 맞춰 제목 수준을 한 단계 낮춘다.
+          dashboard = dashboard.replace(
+              "## 📊 Study Dashboard",
+              "### Study Dashboard",
+              1,
+          )
+          dashboard = dashboard.replace(
+              "### 최근 학습",
+              "#### 최근 학습",
+              1,
+          )
+
+          # DAILY-STUDY의 상대 경로 링크를 프로필에서도 정상 작동하게 변환한다.
+          dashboard = dashboard.replace(
+              "](notes/",
+              "]("
+              "https://github.com/${{ github.repository_owner }}"
+              "/DAILY-STUDY/blob/main/notes/",
+          )
+
+          profile_path = Path("README.md")
+          profile_readme = profile_path.read_text(encoding="utf-8")
+
+          target_pattern = re.compile(
+              r"<!-- DAILY_STUDY:START -->.*?"
+              r"<!-- DAILY_STUDY:END -->",
+              re.DOTALL,
+          )
+
+          replacement = (
+              "<!-- DAILY_STUDY:START -->\n"
+              f"{dashboard}\n"
+              "<!-- DAILY_STUDY:END -->"
+          )
+
+          if not target_pattern.search(profile_readme):
+              raise RuntimeError(
+                  "프로필 README에서 DAILY_STUDY 마커를 찾지 못했습니다."
+              )
+
+          updated = target_pattern.sub(replacement, profile_readme)
+          profile_path.write_text(updated, encoding="utf-8")
+
+      - name: Commit generated profile
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md profile/*.svg
+
+          if git diff --cached --quiet; then
+            echo "No profile changes."
+            exit 0
+          fi
+
+          git commit -m "chore: update profile stats and study dashboard"
+          git push
