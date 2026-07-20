@@ -7,12 +7,16 @@
   <img src="https://img.shields.io/badge/Databricks-FF3621?logo=Databricks&logoColor=white&style=flat-square" alt="Databricks">
 </p>
 
+<br><br>
+
 ## GitHub Stats
 
 <p>
   <img height="165" src="./profile/stats.svg" alt="GitHub Stats">
   <img height="165" src="./profile/top-langs.svg" alt="Top Languages">
 </p>
+
+<br><br>
 
 ## DAILY-STUDY
 
