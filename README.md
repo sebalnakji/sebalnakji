@@ -1,4 +1,4 @@
-## Tech Stack
+﻿## Tech Stack
 
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?logo=Python&logoColor=white&style=flat-square" alt="Python">
@@ -18,7 +18,7 @@
 
 [![DAILY-STUDY](https://img.shields.io/badge/Repository-DAILY--STUDY-181717?logo=github&logoColor=white)](https://github.com/sebalnakji/DAILY-STUDY)
 
-> 실제 면접 질문을 기반으로 매일 **AI·Data 1개 + Backend 1개**를 학습합니다.
+> 매일 **AI·DA**와 **Backend** 분야에서 핵심 개념을 하나씩 학습합니다.
 
 <!-- DAILY_STUDY:START -->
 ### Study Dashboard
@@ -29,7 +29,7 @@
 
 #### 최근 학습
 
-| 날짜 | AI·Data | Backend |
+| 날짜 | AI·DA | Backend |
 |---|---|---|
 | - | - | - |
 <!-- DAILY_STUDY:END -->
