@@ -29,11 +29,11 @@
 
 | 🔥 현재 스트릭 | 🏆 최장 스트릭 | 📅 완료한 학습일 | 🧠 완료한 질문 |
 |---:|---:|---:|---:|
-| **0일** | **0일** | **0일** | **0개** |
+| **1일** | **1일** | **1일** | **2개** |
 
 #### 최근 학습
 
 | 날짜 | AI·DA | Backend |
 |---|---|---|
-| - | - | - |
+| 2026-07-20 | [지도 학습(Supervised Learning)](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-07-20-ai-data-supervised-learning.md) | [Performance vs Scalability](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-07-20-backend-performance-vs-scalability.md) |
 <!-- DAILY_STUDY:END -->
