@@ -29,12 +29,13 @@
 
 | 🔥 현재 스트릭 | 🏆 최장 스트릭 | 📅 완료한 학습일 | 🧠 완료한 질문 |
 |---:|---:|---:|---:|
-| **0일** | **3일** | **3일** | **6개** |
+| **1일** | **3일** | **4일** | **8개** |
 
 #### 최근 학습
 
 | 날짜 | AI·DA | Backend |
 |---|---|---|
+| 2026-07-25 | [선형 회귀(Linear Regression)](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-07-25-ai-data-linear-regression.md) | [가용성 패턴 (Fail-over, Replication)](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-07-25-backend-availability-patterns.md) |
 | 2026-07-22 | [LLM이란 무엇인가](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-07-22-ai-data-what-is-an-llm.md) | [Availability vs Consistency (CAP 정리)](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-07-22-backend-availability-vs-consistency.md) |
 | 2026-07-21 | [머신러닝 vs 전통적 프로그래밍](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-07-21-ai-data-ml-vs-traditional-programming.md) | [Latency vs Throughput](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-07-21-backend-latency-vs-throughput.md) |
 | 2026-07-20 | [지도 학습(Supervised Learning)](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-07-20-ai-data-supervised-learning.md) | [Performance vs Scalability](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-07-20-backend-performance-vs-scalability.md) |
