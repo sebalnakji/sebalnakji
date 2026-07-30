@@ -29,15 +29,15 @@
 
 | 🔥 현재 스트릭 | 🏆 최장 스트릭 | 📅 완료한 학습일 | 🧠 완료한 질문 |
 |---:|---:|---:|---:|
-| **2일** | **3일** | **6일** | **12개** |
+| **3일** | **3일** | **7일** | **14개** |
 
 #### 최근 학습
 
 | 날짜 | AI·DA | Backend |
 |---|---|---|
+| 2026-07-30 | [검증(Validation)과 교차검증](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-07-30-ai-data-validation.md) | [로드밸런서 (Load Balancer)](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-07-30-backend-load-balancer.md) |
 | 2026-07-29 | [토크나이제이션(Tokenization)](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-07-29-ai-data-tokenization.md) | [CDN (Content Delivery Network)](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-07-29-backend-content-delivery-network.md) |
 | 2026-07-28 | [머신러닝의 종류](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-07-28-ai-data-types-of-ml.md) | [DNS (Domain Name System)](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-07-28-backend-domain-name-system.md) |
 | 2026-07-25 | [선형 회귀(Linear Regression)](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-07-25-ai-data-linear-regression.md) | [가용성 패턴 (Fail-over, Replication)](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-07-25-backend-availability-patterns.md) |
 | 2026-07-22 | [LLM이란 무엇인가](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-07-22-ai-data-what-is-an-llm.md) | [Availability vs Consistency (CAP 정리)](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-07-22-backend-availability-vs-consistency.md) |
-| 2026-07-21 | [머신러닝 vs 전통적 프로그래밍](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-07-21-ai-data-ml-vs-traditional-programming.md) | [Latency vs Throughput](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-07-21-backend-latency-vs-throughput.md) |
 <!-- DAILY_STUDY:END -->
