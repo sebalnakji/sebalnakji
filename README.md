@@ -29,15 +29,15 @@
 
 | 🔥 현재 스트릭 | 🏆 최장 스트릭 | 📅 완료한 학습일 | 🧠 완료한 질문 |
 |---:|---:|---:|---:|
-| **2일** | **4일** | **10일** | **20개** |
+| **3일** | **4일** | **11일** | **22개** |
 
 #### 최근 학습
 
 | 날짜 | AI·DA | Backend |
 |---|---|---|
+| 2026-08-05 | [편향-분산 트레이드오프](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-08-05-ai-data-bias-variance.md) | [페더레이션과 샤딩](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-08-05-backend-federation-sharding.md) |
 | 2026-08-04 | [분류 모델 평가지표](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-08-04-ai-data-classification-metrics.md) | [RDBMS와 ACID, 복제](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-08-04-backend-database-rdbms.md) |
 | 2026-08-03 | [임베딩(Embeddings)](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-08-03-ai-data-embeddings.md) | [애플리케이션 계층과 마이크로서비스](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-08-03-backend-application-layer.md) |
 | 2026-07-31 | [머신러닝 모델 구축 단계](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-07-31-ai-data-ml-lifecycle.md) | [리버스 프록시 (Reverse Proxy)](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-07-31-backend-reverse-proxy.md) |
 | 2026-07-30 | [검증(Validation)과 교차검증](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-07-30-ai-data-validation.md) | [로드밸런서 (Load Balancer)](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-07-30-backend-load-balancer.md) |
-| 2026-07-29 | [토크나이제이션(Tokenization)](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-07-29-ai-data-tokenization.md) | [CDN (Content Delivery Network)](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-07-29-backend-content-delivery-network.md) |
 <!-- DAILY_STUDY:END -->
