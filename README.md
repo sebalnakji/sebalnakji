@@ -29,15 +29,15 @@
 
 | 🔥 현재 스트릭 | 🏆 최장 스트릭 | 📅 완료한 학습일 | 🧠 완료한 질문 |
 |---:|---:|---:|---:|
-| **1일** | **4일** | **13일** | **26개** |
+| **2일** | **4일** | **14일** | **28개** |
 
 #### 최근 학습
 
 | 날짜 | AI·DA | Backend |
 |---|---|---|
+| 2026-08-10 | [결측·손상 데이터 처리](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-08-10-ai-data-missing-data.md) | [SQL vs NoSQL 선택 기준](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-08-10-backend-sql-or-nosql.md) |
 | 2026-08-09 | [정규화(Regularization)와 L1/L2](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-08-09-ai-data-regularization.md) | [NoSQL 4종 (키-값 / 문서 / 와이드 컬럼 / 그래프)](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-08-09-backend-nosql-types.md) |
 | 2026-08-06 | [셀프 어텐션(Self-Attention)과 Q·K·V](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-08-06-ai-data-self-attention.md) | [SQL 튜닝과 NoSQL(BASE)](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-08-06-backend-sql-tuning-nosql.md) |
 | 2026-08-05 | [편향-분산 트레이드오프](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-08-05-ai-data-bias-variance.md) | [페더레이션과 샤딩](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-08-05-backend-federation-sharding.md) |
 | 2026-08-04 | [분류 모델 평가지표](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-08-04-ai-data-classification-metrics.md) | [RDBMS와 ACID, 복제](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-08-04-backend-database-rdbms.md) |
-| 2026-08-03 | [임베딩(Embeddings)](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-08-03-ai-data-embeddings.md) | [애플리케이션 계층과 마이크로서비스](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-08-03-backend-application-layer.md) |
 <!-- DAILY_STUDY:END -->
