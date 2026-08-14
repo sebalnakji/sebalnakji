@@ -29,15 +29,15 @@
 
 | 🔥 현재 스트릭 | 🏆 최장 스트릭 | 📅 완료한 학습일 | 🧠 완료한 질문 |
 |---:|---:|---:|---:|
-| **5일** | **5일** | **17일** | **34개** |
+| **6일** | **6일** | **18일** | **36개** |
 
 #### 최근 학습
 
 | 날짜 | AI·DA | Backend |
 |---|---|---|
+| 2026-08-14 | [멀티헤드 어텐션(Multi-Head Attention)](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-08-14-ai-data-multi-head-attention.md) | [RPC와 REST](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-08-14-backend-rpc-rest.md) |
 | 2026-08-13 | [결정 트리(Decision Tree)](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-08-13-ai-data-decision-tree.md) | [HTTP, TCP, UDP](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-08-13-backend-http-tcp-udp.md) |
 | 2026-08-12 | [특징 선택(Feature Selection)](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-08-12-ai-data-feature-selection.md) | [비동기 처리 (메시지 큐, 백프레셔)](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-08-12-backend-asynchronism.md) |
 | 2026-08-11 | [위치 인코딩(Positional Encoding)](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-08-11-ai-data-positional-encoding.md) | [캐시(Cache)와 갱신 전략](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-08-11-backend-cache.md) |
 | 2026-08-10 | [결측·손상 데이터 처리](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-08-10-ai-data-missing-data.md) | [SQL vs NoSQL 선택 기준](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-08-10-backend-sql-or-nosql.md) |
-| 2026-08-09 | [정규화(Regularization)와 L1/L2](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-08-09-ai-data-regularization.md) | [NoSQL 4종 (키-값 / 문서 / 와이드 컬럼 / 그래프)](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-08-09-backend-nosql-types.md) |
 <!-- DAILY_STUDY:END -->
