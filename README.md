@@ -29,15 +29,15 @@
 
 | 🔥 현재 스트릭 | 🏆 최장 스트릭 | 📅 완료한 학습일 | 🧠 완료한 질문 |
 |---:|---:|---:|---:|
-| **2일** | **6일** | **26일** | **52개** |
+| **3일** | **6일** | **27일** | **54개** |
 
 #### 최근 학습
 
 | 날짜 | AI·DA | Backend |
 |---|---|---|
+| 2026-09-02 | [KV 캐시(KV Cache)](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-09-02-ai-data-kv-cache.md) | [실전 설계 — 소셜 네트워크 그래프(최단 경로 탐색)](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-09-02-backend-social-graph.md) |
 | 2026-09-01 | [서포트 벡터 머신(SVM)과 커널 SVM](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-09-01-ai-data-svm.md) | [실전 설계 — 검색 결과 키-값 캐시(Query Cache)](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-09-01-backend-query-cache.md) |
 | 2026-08-31 | [하이퍼파라미터 튜닝 전략(Hyper-parameter Tuning Strategies)](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-08-31-ai-data-hyperparameter-tuning.md) | [실전 설계 — Mint.com(개인 재무 관리 서비스)](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-08-31-backend-design-mint.md) |
 | 2026-08-28 | [온도(Temperature)와 Top-k · Top-p 샘플링](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-08-28-ai-data-temperature-sampling.md) | [실전 설계 — 수백만 사용자까지 확장하기](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-08-28-backend-scaling-to-millions.md) |
 | 2026-08-27 | [경사하강법(Gradient Descent)](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-08-27-ai-data-gradient-descent.md) | [실전 설계 — 웹 크롤러](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-08-27-backend-design-web-crawler.md) |
-| 2026-08-21 | [그래디언트 부스팅(Gradient Boosting)](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-08-21-ai-data-gradient-boosting.md) | [실전 설계 — 트위터 타임라인과 검색](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-08-21-backend-design-twitter.md) |
 <!-- DAILY_STUDY:END -->
