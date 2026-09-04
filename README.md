@@ -29,15 +29,15 @@
 
 | 🔥 현재 스트릭 | 🏆 최장 스트릭 | 📅 완료한 학습일 | 🧠 완료한 질문 |
 |---:|---:|---:|---:|
-| **4일** | **6일** | **28일** | **55개** |
+| **5일** | **6일** | **29일** | **56개** |
 
 #### 최근 학습
 
 | 날짜 | AI·DA | Backend |
 |---|---|---|
+| 2026-09-04 | [역전파(Backpropagation)](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-09-04-ai-data-backpropagation.md) | - |
 | 2026-09-03 | [활성화 함수(Activation Function) — 필요성·시그모이드의 한계·ReLU](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-09-03-ai-data-activation-functions.md) | - |
 | 2026-09-02 | [KV 캐시(KV Cache)](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-09-02-ai-data-kv-cache.md) | [실전 설계 — 소셜 네트워크 그래프(최단 경로 탐색)](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-09-02-backend-social-graph.md) |
 | 2026-09-01 | [서포트 벡터 머신(SVM)과 커널 SVM](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-09-01-ai-data-svm.md) | [실전 설계 — 검색 결과 키-값 캐시(Query Cache)](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-09-01-backend-query-cache.md) |
 | 2026-08-31 | [하이퍼파라미터 튜닝 전략(Hyper-parameter Tuning Strategies)](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-08-31-ai-data-hyperparameter-tuning.md) | [실전 설계 — Mint.com(개인 재무 관리 서비스)](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-08-31-backend-design-mint.md) |
-| 2026-08-28 | [온도(Temperature)와 Top-k · Top-p 샘플링](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-08-28-ai-data-temperature-sampling.md) | [실전 설계 — 수백만 사용자까지 확장하기](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-08-28-backend-scaling-to-millions.md) |
 <!-- DAILY_STUDY:END -->
