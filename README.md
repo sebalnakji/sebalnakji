@@ -29,15 +29,15 @@
 
 | 🔥 현재 스트릭 | 🏆 최장 스트릭 | 📅 완료한 학습일 | 🧠 완료한 질문 |
 |---:|---:|---:|---:|
-| **1일** | **6일** | **30일** | **57개** |
+| **1일** | **6일** | **31일** | **58개** |
 
 #### 최근 학습
 
 | 날짜 | AI·DA | Backend |
 |---|---|---|
+| 2026-09-10 | [가중치 초기화(Weight Initialization)와 대칭성 문제](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-09-10-ai-data-weight-initialization.md) | - |
 | 2026-09-08 | [모델 증류(Model Distillation) / 지식 증류(Knowledge Distillation)](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-09-08-ai-data-model-distillation.md) | - |
 | 2026-09-04 | [역전파(Backpropagation)](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-09-04-ai-data-backpropagation.md) | - |
 | 2026-09-03 | [활성화 함수(Activation Function) — 필요성·시그모이드의 한계·ReLU](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-09-03-ai-data-activation-functions.md) | - |
 | 2026-09-02 | [KV 캐시(KV Cache)](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-09-02-ai-data-kv-cache.md) | [실전 설계 — 소셜 네트워크 그래프(최단 경로 탐색)](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-09-02-backend-social-graph.md) |
-| 2026-09-01 | [서포트 벡터 머신(SVM)과 커널 SVM](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-09-01-ai-data-svm.md) | [실전 설계 — 검색 결과 키-값 캐시(Query Cache)](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-09-01-backend-query-cache.md) |
 <!-- DAILY_STUDY:END -->
