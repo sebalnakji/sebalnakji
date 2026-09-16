@@ -29,15 +29,15 @@
 
 | 🔥 현재 스트릭 | 🏆 최장 스트릭 | 📅 완료한 학습일 | 🧠 완료한 질문 | 🔁 복습 |
 |---:|---:|---:|---:|---:|
-| **1일** | **6일** | **33일** | **60개** | **0회** |
+| **2일** | **6일** | **34일** | **61개** | **0회** |
 
 #### 최근 학습
 
 | 날짜 | AI·DA | Backend |
 |---|---|---|
+| 2026-09-16 | [드롭아웃(Dropout)과 신경망 전용 정규화 기법](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-09-16-ai-data-dropout.md) | - |
 | 2026-09-15 | [전문가 혼합(MoE, Mixture of Experts)과 밀집·희소 모델](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-09-15-ai-data-mixture-of-experts.md) | - |
 | 2026-09-11 | [합성곱 신경망(CNN, Convolutional Neural Network)](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-09-11-ai-data-cnn.md) | - |
 | 2026-09-10 | [가중치 초기화(Weight Initialization)와 대칭성 문제](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-09-10-ai-data-weight-initialization.md) | - |
 | 2026-09-08 | [모델 증류(Model Distillation) / 지식 증류(Knowledge Distillation)](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-09-08-ai-data-model-distillation.md) | - |
-| 2026-09-04 | [역전파(Backpropagation)](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-09-04-ai-data-backpropagation.md) | - |
 <!-- DAILY_STUDY:END -->
