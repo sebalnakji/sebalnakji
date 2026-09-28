@@ -29,15 +29,15 @@
 
 | 🔥 현재 스트릭 | 🏆 최장 스트릭 | 📅 완료한 학습일 | 🧠 완료한 질문 | 🔁 복습 |
 |---:|---:|---:|---:|---:|
-| **0일** | **6일** | **37일** | **64개** | **0회** |
+| **1일** | **6일** | **38일** | **65개** | **0회** |
 
 #### 최근 학습
 
 | 날짜 | AI·DA | Backend |
 |---|---|---|
+| 2026-09-28 | [모수적 vs 비모수적 알고리즘(Parametric vs Non-parametric)](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-09-28-ai-data-parametric-vs-nonparametric.md) | - |
 | 2026-09-22 | [Adam과 SGD — 적응적 옵티마이저와 학습률 스케줄](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-09-22-ai-data-adam-vs-sgd.md) | - |
 | 2026-09-21 | [Flash Attention — I/O 인식 어텐션](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-09-21-ai-data-flash-attention.md) | - |
 | 2026-09-17 | [전이학습(Transfer Learning)](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-09-17-ai-data-transfer-learning.md) | - |
 | 2026-09-16 | [드롭아웃(Dropout)과 신경망 전용 정규화 기법](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-09-16-ai-data-dropout.md) | - |
-| 2026-09-15 | [전문가 혼합(MoE, Mixture of Experts)과 밀집·희소 모델](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-09-15-ai-data-mixture-of-experts.md) | - |
 <!-- DAILY_STUDY:END -->
