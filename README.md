@@ -29,15 +29,15 @@
 
 | 🔥 현재 스트릭 | 🏆 최장 스트릭 | 📅 완료한 학습일 | 🧠 완료한 질문 | 🔁 복습 |
 |---:|---:|---:|---:|---:|
-| **5일** | **6일** | **42일** | **69개** | **0회** |
+| **1일** | **6일** | **43일** | **70개** | **0회** |
 
 #### 최근 학습
 
 | 날짜 | AI·DA | Backend |
 |---|---|---|
+| 2026-10-07 | [CNN의 회전 민감성과 데이터 증강(Data Augmentation)](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-10-07-ai-data-augmentation-rotation.md) | - |
 | 2026-10-02 | [RoPE(Rotary Position Embedding, 회전 위치 임베딩)](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-10-02-ai-data-rope.md) | - |
 | 2026-10-01 | [선형 vs 비선형 알고리즘(Linear vs Nonlinear)](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-10-01-ai-data-linear-vs-nonlinear.md) | - |
 | 2026-09-30 | [학습 종료 시점(조기 종료)과 모델 체크포인팅](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-09-30-ai-data-early-stopping-checkpointing.md) | - |
 | 2026-09-29 | [GQA(Grouped-Query Attention)와 MHA·MQA](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-09-29-ai-data-gqa-vs-mha.md) | - |
-| 2026-09-28 | [모수적 vs 비모수적 알고리즘(Parametric vs Non-parametric)](https://github.com/sebalnakji/DAILY-STUDY/blob/main/notes/2026/2026-09-28-ai-data-parametric-vs-nonparametric.md) | - |
 <!-- DAILY_STUDY:END -->
